@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SharedPreference</string>
+    <string name="CheckBox">com.fedibr.sharedpreference.CheckBox</string>
+    <string name="Name">com.fedibr.sharedpreference.Name</string>
+    <string name="Password">com.fedibr.sharedpreference.Pass</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+</resources>

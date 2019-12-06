@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPref">
+
+    <EditText
+        android:id="@+id/Password11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="49dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/Signin11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Username11" />
+
+    <EditText
+        android:id="@+id/Username11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="42dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/Password11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Username" />
+
+    <Button
+        android:id="@+id/Signin11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="44dp"
+        android:text="Signin"
+        app:layout_constraintBottom_toTopOf="@+id/Rem11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password11"
+        tools:text="Signin" />
+
+    <CheckBox
+        android:id="@+id/Rem11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="231dp"
+        android:text="Remember my login info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Signin11"
+        tools:text="Remember my login info" />
+</androidx.constraintlayout.widget.ConstraintLayout>
